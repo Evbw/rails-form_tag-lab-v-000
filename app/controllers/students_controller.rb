@@ -9,6 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def new
+    render :form
   end
 
   def create
